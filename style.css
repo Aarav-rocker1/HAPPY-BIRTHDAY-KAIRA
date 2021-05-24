@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap');
+
+#tap {
+    height: 300px;
+    padding-top: 125px;
+}
+
+#cake {
+    padding-top: 50px;
+}
+
+#hbd {
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-transform: uppercase;
+    border-bottom: 8px solid black;
+    box-shadow: 0 10px 10px rgba(0,0,0,.2);
+}
+
+#images1 {
+    height: 250px;
+}
+
+#images2 {
+    height: 250px;
+    padding-top: 120px;
+}
+
+h1 span {
+    position: relative;
+    display: inline-block;
+    animation: animate 1.5s linear infinite;
+}
+
+h1 span:nth-child(1){
+    animation-delay: 0.2s;
+}
+
+h1 span:nth-child(2){
+    animation-delay: 0.4s;
+}
+
+h1 span:nth-child(3){
+    animation-delay: 0.6s;
+}
+
+h1 span:nth-child(4){
+    animation-delay: 0.8s;
+}
+
+h1 span:nth-child(5){
+    animation-delay: 1s;
+}
+
+h1 span:nth-child(6){
+    animation-delay: 1.2s;
+}
+
+h1 span:nth-child(7){
+    animation-delay: 1.4s;
+}
+
+h1 span:nth-child(8){
+    animation-delay: 1.6s;
+}
+
+h1 span:nth-child(9){
+    animation-delay: 1.8s;
+}
+
+h1 span:nth-child(10){
+    animation-delay: 2s;
+}
+
+h1 span:nth-child(11){
+    animation-delay: 2.2s;
+}
+
+h1 span:nth-child(12){
+    animation-delay: 2.4s;
+}
+
+h1 span:nth-child(13){
+    animation-delay: 2.6s;
+}
+
+h1 span:nth-child(14){
+    animation-delay: 2.8s;
+}
+
+html {
+    animation: rgb;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    font-family: 'Comic Neue', cursive;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: orangered; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: orangered;
+}
+
+@keyframes rgb {
+    0% {background-color: red;}
+    25% {background-color: yellow;}
+    50% {background-color: blue;}
+    75% {background-color: green;}
+    100% {background-color: purple;}
+}
+
+@keyframes animate {
+    0% {transform: translateY(0px);}
+    10% {transform: translateY(-30px);}
+    15% {transform: translateY(0px);}
+    25% {transform: translateY(-20px);}
+    30% {transform: translateY(0px);}
+    40% {transform: translateY(-10px);}
+    45% {transform: translateY(0px);}
+    100% {transform: translateY(0px);}
+}
