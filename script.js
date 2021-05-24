@@ -4,7 +4,6 @@ function song() {
     document.getElementById("hbd").style.display = "block";
     document.getElementById("images1").style.display = "block";
     document.getElementById("images2").style.display = "block";
-    document.getElementById("cake").style.display = "block";
     var i = 0;
     var v = 0;
     if (i==4) {
@@ -46,7 +45,6 @@ function load() {
     document.getElementById("hbd").style.display = "none";
     document.getElementById("images1").style.display = "none";
     document.getElementById("images2").style.display = "none";
-    document.getElementById("cake").style.display = "none";
 
 }
 
